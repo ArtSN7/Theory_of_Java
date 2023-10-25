@@ -1739,7 +1739,7 @@ Now that we understand what is class and object. Let's see a fully working examp
 
 ---
 
-#### Example: Java Class and Objects
+### Example: Java Class and Objects
 
 ```java
 class Lamp {
@@ -1807,7 +1807,7 @@ That is, led and halogen objects will have their own copy of the isOn vari
 
 ---
 
-#### Example: Create objects inside the same class
+### Example: Create objects inside the same class
 
 Note that in the previous example, we have created objects inside another class and accessed the members from that class.
 
@@ -1884,7 +1884,7 @@ Here, we can see that the reference of both obj and `this` is the same. It m
 
 There are various situations where `this` keyword is commonly used.
 
-# Using this for Ambiguity Variable Names
+### Using this for Ambiguity Variable Names
 
 In Java, it is not allowed to declare two or more variables having the same name inside a scope (class scope or method scope). However, instance variables and parameters may have the same name. For example,
 
