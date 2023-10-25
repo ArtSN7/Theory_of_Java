@@ -281,7 +281,7 @@ Number = -10.6
 
 ---
 
-## Java Input
+### Java Input
 
 Java provides different ways to get input from the user. However, in this tutorial, you will learn to get input from user using the object of `Scanner` class.
 
