@@ -3,7 +3,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png" width="128"/>
 
 
-# # Data Types
+## Data Types
 
 
 ```java
@@ -38,9 +38,9 @@ public class first_prog {
 }
 ```
 
-# Comments
+## Comments
 
-# Java Comments
+### Java Comments
 
 In computer programming, comments are a portion of the program that are completely ignored by Java compilers. They are mainly used to help programmers to understand the code. For example,
 
@@ -61,7 +61,7 @@ Here, we have used the following comments,
 
 ---
 
-# Types of Comments in Java
+### Types of Comments in Java
 
 In Java, there are two types of comments:
 
@@ -70,7 +70,7 @@ In Java, there are two types of comments:
 
 ---
 
-### **Single-line Comment**
+#### **Single-line Comment**
 
 A single-line comment starts and ends in the same line. To write a single-line comment, we can use the `//` symbol. For example,
 
@@ -102,7 +102,7 @@ The Java compiler ignores everything from `//` to the end of line. Hence, it i
 
 ---
 
-### **Multi-line Comment**
+#### **Multi-line Comment**
 
 When we want to write comments in multiple lines, we can use the multi-line comment. To write multi-line comments, we can use the /*....*/ symbol. For example,
 
@@ -139,9 +139,9 @@ Here, we have used the multi-line comment:
 This type of comment is also known as **Traditional Comment**. In this type of comment, the Java compiler ignores everything from `/*` to `*/`.
 
 
-# Input / Output
+## Input / Output
 
-# Java Output
+### Java Output
 
 In Java, you can simply use
 
@@ -184,7 +184,7 @@ Here, we have used the `println()` method to display the string.
 
 ---
 
-### **Difference between println(), print() and printf()**
+#### **Difference between println(), print() and printf()**
 
 - `print()` - It prints string inside the quotes.
 - `println()` - It prints string inside the quotes similar like `print()` method. Then the cursor moves to the beginning of the next line.
@@ -192,7 +192,7 @@ Here, we have used the `println()` method to display the string.
 
 ---
 
-### **Example: print() and println()**
+#### **Example: print() and println()**
 
 ```java
 class Output {
@@ -221,7 +221,7 @@ In the above example, we have shown the working of the `print()` and `println
 
 ---
 
-### **Example: Print Concatenated Strings**
+#### **Example: Print Concatenated Strings**
 
 ```java
 class PrintVariables {
@@ -246,7 +246,7 @@ Number = -10.6
 
 ---
 
-# Java Input
+## Java Input
 
 Java provides different ways to get input from the user. However, in this tutorial, you will learn to get input from user using the object of `Scanner` class.
 
@@ -274,7 +274,7 @@ int number = input.nextInt();
 
 ---
 
-### **Example: Get Integer Input From the User**
+#### **Example: Get Integer Input From the User**
 
 ```java
 import java.util.Scanner;
@@ -308,9 +308,9 @@ You entered 23
 **Note**: We have used the `close()` method to close the object. It is recommended to close the scanner object once the input is taken.
 
 
-# Operators
+## Operators
 
-# 1. Java Arithmetic Operators
+### 1. Java Arithmetic Operators
 
 Arithmetic operators are used to perform arithmetic operations on variables and data. For example,
 
@@ -351,7 +351,7 @@ The modulo operator `%` computes the remainder. When `a = 7` is divided by 
 
 ---
 
-# 2. Java Assignment Operators
+### 2. Java Assignment Operators
 
 Assignment operators are used in Java to assign values to variables. For example,
 
@@ -375,7 +375,7 @@ Let's see some more assignment operators available in Java.
 
 ---
 
-# 3. Java Relational Operators
+### 3. Java Relational Operators
 
 Relational operators are used to check the relationship between two operands. For example,
 
@@ -399,7 +399,7 @@ It returns either `true` or `false`.
 
 ---
 
-# 4. Java Logical Operators
+### 4. Java Logical Operators
 
 Logical operators are used to check whether an expression is `true` or `false`. They are used in decision making.
 
@@ -409,7 +409,7 @@ Logical operators are used to check whether an expression is `true` or `false
 | || (Logical OR) | expression1 || expression2 | true if either expression1 or expression2 is true |
 | ! (Logical NOT) | !expression | true if expression is false and vice versa |
 
-### **Example:**
+#### **Example:**
 
 ```java
 class Main {
@@ -433,7 +433,7 @@ class Main {
 
 ---
 
-# 5. Java Unary Operators
+### 5. Java Unary Operators
 
 Unary operators are used with only one operand. For example, `++` is a unary operator that increases the value of a variable by **1**. That is, `++5` will return **6**.
 
@@ -447,7 +447,7 @@ Different types of unary operators are:
 | -- | Decrement operator: decrements value by 1 |
 | ! | Logical complement operator: inverts the value of a boolean |
 
-# Increment and Decrement Operators
+### Increment and Decrement Operators
 
 Java also provides increment and decrement operators: `++` and `--` respectively. `++`increases the value of the operand by **1**, while `--` decrease it by **1**. For example,
 
@@ -461,9 +461,9 @@ int num = 5;
 --num;
 ```
 
-# If / Else
+## If / Else
 
-# 1. Java if (if-then) Statement
+### 1. Java if (if-then) Statement
 
 The syntax of an **if-then** statement is:
 
@@ -486,7 +486,7 @@ Here, condition is a boolean expression such as `age >= 18`.
 
 ---
 
-### **Example:**
+#### **Example:**
 
 ```java
 class IfStatement {
@@ -512,7 +512,7 @@ Statement outside if block
 
 ---
 
-# 2. Java if...else (if-then-else) Statement
+### 2. Java if...else (if-then-else) Statement
 
 The `if` statement executes a certain section of code if the test expression is evaluated to `true`. However, if the test expression is evaluated to `false`, it does nothing.
 
@@ -531,7 +531,7 @@ else {
 
 ---
 
-# 3. Java if...else...if Statement
+### 3. Java if...else...if Statement
 
 In Java, we have an **if...else...if** ladder, that can be used to execute one block of code among multiple other blocks.
 
@@ -550,7 +550,7 @@ else {
 }
 ```
 
-### **Example:**
+#### **Example:**
 
 ```java
 class Main {
@@ -585,9 +585,9 @@ The number is 0.
 ---
 
 
-# Switch Statement
+## Switch Statement
 
-# Java switch Statement
+### Java switch Statement
 
 The `switch` statement allows us to execute a block of code among many alternatives.
 
@@ -612,7 +612,7 @@ switch (expression) {
 
 ---
 
-# Example: Java switch Statement
+#### Example: Java switch Statement
 
 ```java
 // Java Program to check the size
@@ -673,7 +673,7 @@ Here, the size variable is assigned with the value `Large`.
 
 ---
 
-# Break statement in Java switch...case
+### Break statement in Java switch...case
 
 Notice that we have been using `break` in each case block.
 
@@ -722,7 +722,7 @@ Default case
 
 ---
 
-# Default case in Java switch-case
+### Default case in Java switch-case
 
 The switch statement also includes an **optional default case**. It is executed when the expression doesn't match any of the cases. For example,
 
@@ -765,9 +765,9 @@ default:
   System.out.println("Unknown Size);
 ```
 
-# While Loop
+## While Loop
 
-# Java while loop
+### Java while loop
 
 Java `while` loop is used to run a specific code until a certain condition is met. The syntax of the `while` loop is:
 
@@ -779,13 +779,13 @@ while (testExpression) {
 
 ---
 
-# Flowchart of while loop
+### Flowchart of while loop
 
 !https://cdn.programiz.com/sites/tutorial2program/files/java-while-loop.png
 
 ---
 
-### **Example: Display Numbers from 1 to 5**
+#### **Example: Display Numbers from 1 to 5**
 
 ```java
 // Program to display numbers from 1 to 5
@@ -830,9 +830,9 @@ while(true){
 
 In the above programs, the **textExpression** is always `true`. Hence, the loop body will run for infinite times.
 
-# For Loop
+## For Loop
 
-# Java for Loop
+### Java for Loop
 
 Java `for` loop is used to run a block of code for a certain number of times. The syntax of `for` loop is:
 
@@ -848,7 +848,7 @@ for (initialExpression; testExpression; updateExpression) {
 
 ---
 
-### **Example 1: Display a Text Five Times**
+#### **Example 1: Display a Text Five Times**
 
 ```java
 // Program to print a text 5 times
@@ -877,7 +877,7 @@ Java is fun 5
 
 ---
 
-# Java for-each Loop
+### Java for-each Loop
 
 The Java for loop has an alternative syntax that makes it easy to iterate through [arrays](https://www.programiz.com/java-programming/arrays)and collections. For example,
 
@@ -909,9 +909,9 @@ class Main {
 
 ```
 
-# Nested For Loops
+### Nested For Loops
 
-# Nested Loop in Java
+#### Nested Loop in Java
 
 If a loop exists inside the body of another loop, it's called a nested loop. Here's an example of the nested `for` loop.
 
@@ -935,9 +935,9 @@ We can use the nested loop to iterate through each day of a week for 3 weeks.
 In this case, we can create a loop to iterate three times (3 weeks). And, inside the loop, we can create another loop to iterate 7 times (7 days).
 
 
-# Break And Continue
+## Break And Continue
 
-# Java break
+### Java break
 
 The `break` statement in Java terminates the loop immediately, and the control of the program moves to the next statement following the loop.
 
@@ -951,13 +951,13 @@ break;
 
 ---
 
-# How break statement works?
+### How break statement works?
 
 !https://cdn.programiz.com/sites/tutorial2program/files/java-break-statement-works.jpg
 
 ---
 
-### **Example 1: Java break statement**
+#### **Example 1: Java break statement**
 
 ```java
 class Test {
@@ -997,7 +997,7 @@ This means when the value of i is equal to 5, the loop terminates. Hence we ge
 
 ---
 
-# Java continue
+### Java continue
 
 The `continue` statement skips the current iteration of a loop (`for`, `while`, `do...while`, etc).
 
@@ -1011,7 +1011,7 @@ continue;
 
 ---
 
-### **Example 1: Java continue statement**
+#### **Example 1: Java continue statement**
 
 ```java
 class Main {
@@ -1055,7 +1055,7 @@ Here, the `continue` statement is executed when the value of i becomes more 
 It then skips the print statement for those values. Hence, the output skips the values **5**, **6**, **7**, and **8**.
 
 
-# Arrays
+## Arrays
 
 An array is a collection of similar types of data.
 
@@ -1069,7 +1069,7 @@ Here, the above array cannot store more than 100 names. The number of values in 
 
 ---
 
-# How to declare an array in Java
+### How to declare an array in Java
 
 In Java, here is how we can declare an array.
 
@@ -1108,7 +1108,7 @@ double[] data = new double[10];
 
 ---
 
-# How to Initialise Arrays in Java
+### How to Initialise Arrays in Java
 
 In Java, we can initialise arrays during declaration. For example,
 
@@ -1134,7 +1134,7 @@ age[2] = 5;
 
 ---
 
-# How to Access Elements of an Array in Java?
+### How to Access Elements of an Array in Java?
 
 We can access the element of an array using the index number. Here is the syntax for accessing elements of an array,
 
@@ -1145,7 +1145,7 @@ array[index_of_element]
 
 ---
 
-# Looping Through Array Elements
+### Looping Through Array Elements
 
 In Java, we can also loop through each element of the array. For example,
 
@@ -1187,7 +1187,7 @@ Here, we are using the `length` property of the array to get the size of the a
 
 We can also use the for-each loop to iterate through the elements of an array. For example,
 
-### **Example: Using the for-each Loop**
+#### **Example: Using the for-each Loop**
 
 ```java
 class Main {
@@ -1215,7 +1215,7 @@ Using for-each Loop:
 5
 ```
 
-# Java Multidimensional Arrays
+## Java Multidimensional Arrays
 
 A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example,
 
@@ -1241,7 +1241,7 @@ Here, data is a 3d array that can hold a maximum of 24 (3*4*2) elements of typ
 
 ---
 
-# How to initialise a 2d array in Java?
+### How to initialise a 2d array in Java?
 
 Here is how we can initialise a 2-dimensional array in Java.
 
@@ -1253,9 +1253,9 @@ int[][] a = {
 };
 ```
 
-# ArrayList
+## ArrayList
 
-# Java ArrayList
+### Java ArrayList
 
 In Java, we use the `ArrayList` class to implement the functionality of **resizable-arrays**.
 
@@ -1263,7 +1263,7 @@ It implements the `List` interface of the collections framework.
 
 ---
 
-# Java ArrayList Vs Array
+### Java ArrayList Vs Array
 
 In Java, we need to declare the size of an array before we can use it. Once the size of an array is declared, it's hard to change it.
 
@@ -1273,7 +1273,7 @@ Unlike arrays, arraylists can automatically adjust their capacity when we add or
 
 ---
 
-# Creating an ArrayList
+### Creating an ArrayList
 
 Before using `ArrayList`, we need to import the `java.util.ArrayList` package first. Here is how we can create arraylists in Java:
 
@@ -1295,7 +1295,7 @@ In the above program, we have used `Integer` not int. It is because we cannot 
 
 Here, `Integer` is the corresponding wrapper class of `int`. 
 
-# Java Wrapper Class
+### Java Wrapper Class
 
 The wrapper classes in Java are used to convert primitive types (`int`, `char`, `float`, etc) into corresponding objects.
 
@@ -1314,7 +1314,7 @@ Each of the 8 primitive types has corresponding wrapper classes.
 
 ---
 
-### **Example: Create ArrayList in Java**
+#### **Example: Create ArrayList in Java**
 
 ```java
 import java.util.ArrayList;
@@ -1346,7 +1346,7 @@ Here, we have used the `add()` method to add elements to the arraylist. We wil
 
 ---
 
-# Basic Operations on ArrayList
+### Basic Operations on ArrayList
 
 The `ArrayList` class provides various methods to perform different operations on arraylists. We will look at some commonly used arraylist operations in this tutorial:
 
@@ -1357,7 +1357,7 @@ The `ArrayList` class provides various methods to perform different operations
 
 ---
 
-### **1. Add Elements to an ArrayList**
+#### **1. Add Elements to an ArrayList**
 
 To add a single element to the arraylist, we use the `add()` method of the `ArrayList` class. For example,
 
@@ -1389,7 +1389,7 @@ In the above example, we have created an `ArrayList` named languages. Here, w
 
 ---
 
-### **2. Access ArrayList Elements**
+#### **2. Access ArrayList Elements**
 
 To access an element from the arraylist, we use the `get()` method of the `ArrayList`class. For example,
 
@@ -1427,7 +1427,7 @@ We can also access elements of the `ArrayList` using the `iterator()` method
 
 ---
 
-### **3. Change ArrayList Elements**
+#### **3. Change ArrayList Elements**
 
 To change elements of the arraylist, we use the `set()` method of the `ArrayList` class. For example,
 
@@ -1471,7 +1471,7 @@ To learn more, visit the [Java ArrayList set()](https://www.programiz.com/java-
 
 ---
 
-### **4. Remove ArrayList Elements**
+#### **4. Remove ArrayList Elements**
 
 To remove an element from the arraylist, we can use the `remove()` method of the `ArrayList` class. For example,
 
@@ -1516,7 +1516,7 @@ We can also remove all the elements from the arraylist at once. To learn more, v
 
 ---
 
-# Methods of ArrayList Class
+### Methods of ArrayList Class
 
 In the previous section, we have learned about the `add()`, `get()`, `set()`, and `remove()`method of the `ArrayList` class.
 
@@ -1536,7 +1536,7 @@ If you want to learn about all the different methods of arraylist, visit [Java 
 
 ---
 
-# Iterate through an ArrayList
+### Iterate through an ArrayList
 
 We can use the [Java for-each loop](https://www.programiz.com/java-programming/enhanced-for-loop) to loop through each element of the arraylist. For example,
 
@@ -1573,9 +1573,9 @@ Accessing individual elements:
 Cow, Cat, Dog,
 ```
 
-# Class and Object
+## Class and Object
 
-# Java Class and Objects
+### Java Class and Objects
 
 Java is an object-oriented programming language. The core concept of the object-oriented approach is to break complex problems into smaller objects.
 
@@ -1586,7 +1586,7 @@ An object is any entity that has a **state** and **behavior**. For example, a
 
 ---
 
-# Java Class
+### Java Class
 
 A class is a blueprint for the object. Before we create an object, we first need to define the class.
 
@@ -1596,7 +1596,7 @@ Since many houses can be made from the same description, we can create many obje
 
 ---
 
-# Create a class in Java
+### Create a class in Java
 
 We can create a class in Java using the class keyword. For example,
 
@@ -1635,7 +1635,7 @@ Here, Bicycle is a prototype. Now, we can create any number of bicycles using 
 
 ---
 
-# Java Objects
+### Java Objects
 
 An object is called an instance of a class. For example, suppose Bicycle is a class then MountainBicycle, SportsBicycle, TouringBicycle, etc can be considered as objects of the class.
 
@@ -1662,7 +1662,7 @@ As you can see, we have created two objects of the class. We can create multiple
 
 ---
 
-# Access Members of a Class
+### Access Members of a Class
 
 We can use the name of objects along with the `.` operator to access members of a class. For example,
 
@@ -1706,7 +1706,7 @@ Now that we understand what is class and object. Let's see a fully working examp
 
 ---
 
-# Example: Java Class and Objects
+#### Example: Java Class and Objects
 
 ```java
 class Lamp {
@@ -1774,7 +1774,7 @@ That is, led and halogen objects will have their own copy of the isOn vari
 
 ---
 
-# Example: Create objects inside the same class
+#### Example: Create objects inside the same class
 
 Note that in the previous example, we have created objects inside another class and accessed the members from that class.
 
@@ -1814,9 +1814,7 @@ Light on? true
 
 Here, we are creating the object inside the `main()` method of the same class.
 
-# This keyword
-
-# This Keyword
+## This keyword
 
 In Java, this keyword is used to refer to the current object inside a method or a constructor. For example,
 
@@ -1849,7 +1847,7 @@ Here, we can see that the reference of both obj and `this` is the same. It m
 
 ---
 
-# Use of this Keyword
+### Use of this Keyword
 
 There are various situations where `this` keyword is commonly used.
 
@@ -1949,7 +1947,7 @@ class Main {
 
 ---
 
-### T**his with Getters and Setters**
+### This with Getters and Setters**
 
 Another common use of `this` keyword is in *setters and getters methods* of a class. For example:
 
@@ -1990,7 +1988,7 @@ Here, we have used `this` keyword:
 
 ---
 
-# Using this in Constructor Overloading
+### Using this in Constructor Overloading
 
 While working with [constructor overloading](https://www.programiz.com/java-programming/constructors#overloading), we might have to invoke one constructor from another constructor. In such a case, we cannot call the constructor explicitly. Instead, we have to use `this` keyword.
 
@@ -2131,9 +2129,9 @@ add(this);
 Here, we are calling the `add()` method by passing this as an argument. Since this keyword contains the reference to the object obj of the class, we can change the value of x and y inside the `add()` method.
 
 
-# Constructor
+## Constructor
 
-# What is a Constructor?
+### What is a Constructor?
 
 A constructor in Java is similar to a method that is invoked when an object of the class is created.
 
@@ -2153,7 +2151,7 @@ Here, `Test()` is a constructor. It has the same name as that of the class and
 
 ---
 
-# Example 1: Java Constructor
+### Example 1: Java Constructor
 
 ```java
 class Main {
@@ -2206,7 +2204,7 @@ In Java, constructors can be divided into 3 types:
 
 ---
 
-# 1. Java No-Arg Constructors
+#### 1. Java No-Arg Constructors
 
 Similar to methods, a Java constructor may or may not have any parameters (arguments).
 
@@ -2220,7 +2218,7 @@ private Constructor() {
 
 ---
 
-### **Example 2: Java private no-arg constructor**
+#### **Example 2: Java private no-arg constructor**
 
 ```java
 class Main {
@@ -2259,7 +2257,7 @@ Here, we are creating the object inside the same class. Hence, the program is ab
 
 However, if we want to create objects outside the class, then we need to declare the constructor as `public`.
 
-### **Example 3: Java public no-arg constructors**
+#### **Example 3: Java public no-arg constructors**
 
 ```java
 class Company {
@@ -2289,7 +2287,7 @@ Company name = Programiz
 
 ---
 
-# 2. Java Parameterized Constructor
+### 2. Java Parameterized Constructor
 
 A Java constructor can also accept one or more parameters. Such constructors are known as parameterized constructors (constructor with parameters).
 
@@ -2334,11 +2332,11 @@ Here, we are passing the single value to the constructor. Based on the argument 
 
 ---
 
-# 3. Java Default Constructor
+### 3. Java Default Constructor
 
 If we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program. This constructor is called default constructor.
 
-### **Example 5: Default Constructor**
+#### **Example 5: Default Constructor**
 
 ```java
 class Main {
@@ -2412,7 +2410,7 @@ class Main {
 
 ---
 
-# Important Notes on Java Constructors
+### Important Notes on Java Constructors
 
 - Constructors are invoked implicitly when you instantiate objects.
 - The two rules for creating a constructor are:The name of the constructor should be the same as the class.A Java constructor must not have a return type.
@@ -2423,11 +2421,11 @@ class Main {
 
 ---
 
-# Constructors Overloading in Java
+### Constructors Overloading in Java
 
 Similar to [Java method overloading](https://www.programiz.com/java-programming/method-overloading), we can also create two or more constructors with different parameters. This is called constructors overloading.
 
-### **Example 6: Java Constructor Overloading**
+#### **Example 6: Java Constructor Overloading**
 
 ```java
 class Main {
@@ -2478,11 +2476,11 @@ It is also possible to call one constructor from another constructor. To learn m
 **Note**: We have used `this` keyword to specify the variable of the class. To know more about `this` keyword, visit [Java this keyword](https://www.programiz.com/java-programming/this-keyword).
 
 
-# Modifiers
+## Modifiers
 
-# Java Access Modifiers
+### Java Access Modifiers
 
-# What are Access Modifiers?
+#### What are Access Modifiers?
 
 In Java, access modifiers are used to set the accessibility (visibility) of classes, interfaces, variables, methods, constructors, data members, and the setter methods. For example,
 
@@ -2505,7 +2503,7 @@ Note the keyword `public` and `private`. These are access modifiers in Java. 
 
 ---
 
-# Types of Access Modifier
+### Types of Access Modifier
 
 Before you learn about types of access modifiers, make sure you know about [Java Packages](https://www.programiz.com/java-programming/packages-import).
 
@@ -2520,9 +2518,9 @@ There are four access modifiers keywords in Java and they are:
 
 
 
-# Methods
+## Methods
 
-# Java Methods
+### Java Methods
 
 A method is a block of code that performs a specific task.
 
@@ -2542,7 +2540,7 @@ Let's first learn about user-defined methods.
 
 ---
 
-# Declaring a Java Method
+### Declaring a Java Method
 
 The syntax to declare a method is:
 
@@ -2584,7 +2582,7 @@ Here,
 
 ---
 
-# Calling a Method in Java
+### Calling a Method in Java
 
 In the above example, we have declared a method named `addNumbers()`. Now, to use the method, we need to call it.
 
@@ -2601,7 +2599,7 @@ addNumbers();
 
 ---
 
-# Example 1: Java Methods
+#### Example 1: Java Methods
 
 ```java
 class Main {
@@ -2645,7 +2643,7 @@ Here, we have called the method by passing two arguments num1 and num2. Since
 
 ---
 
-# Java Method Return Type
+### Java Method Return Type
 
 A Java method may or may not return a value to the function call. We use the **return statement** to return any value. For example,
 
@@ -2658,7 +2656,7 @@ return sum;
 
 Here, we are returning the variable sum. Since the return type of the function is `int`. The sum variable should be of `int` type. Otherwise, it will generate an error.
 
-### **Example 2: Method Return Type**
+#### **Example 2: Method Return Type**
 
 ```java
 class Main {
@@ -2707,7 +2705,7 @@ public void square(int a) {
 
 ---
 
-# Method Parameters in Java
+## Method Parameters in Java
 
 A method parameter is a value accepted by the method. As mentioned earlier, a method can also have any number of parameters. For example,
 
@@ -2735,7 +2733,7 @@ addNumbers()
 
 ---
 
-### **Example 3: Method Parameters**
+#### **Example 3: Method Parameters**
 
 ```java
 class Main {
@@ -2779,7 +2777,7 @@ The parameter num accepted by the method definition is known as a formal argum
 
 ---
 
-# Standard Library Methods
+### Standard Library Methods
 
 The standard library methods are built-in methods in Java that are readily available for use. These standard libraries come along with the Java Class Library (JCL) in a Java archive (*.jar) file with JVM and JRE.
 
@@ -2812,11 +2810,11 @@ To learn more about standard library methods, visit [Java Library Methods](http
 
 ---
 
-# What are the advantages of using methods?
+### What are the advantages of using methods?
 
 **1.** The main advantage is **code reusability**. We can write a method once, and use it multiple times. We do not have to rewrite the entire code each time. Think of it as, "write once, reuse multiple times".
 
-### **Example 5: Java Method for Code Reusability**
+#### **Example 5: Java Method for Code Reusability**
 
 ```java
 public class Main {
