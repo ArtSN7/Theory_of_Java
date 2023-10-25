@@ -2251,7 +2251,7 @@ private Constructor() {
 
 ---
 
-#### **Example 2: Java private no-arg constructor**
+##### **Example 2: Java private no-arg constructor**
 
 ```java
 class Main {
@@ -2290,7 +2290,7 @@ Here, we are creating the object inside the same class. Hence, the program is ab
 
 However, if we want to create objects outside the class, then we need to declare the constructor as `public`.
 
-#### **Example 3: Java public no-arg constructors**
+##### **Example 3: Java public no-arg constructors**
 
 ```java
 class Company {
@@ -2324,7 +2324,7 @@ Company name = Programiz
 
 A Java constructor can also accept one or more parameters. Such constructors are known as parameterized constructors (constructor with parameters).
 
-### **Example 4: Parameterized constructor**
+#### **Example 4: Parameterized constructor**
 
 ```java
 class Main {
