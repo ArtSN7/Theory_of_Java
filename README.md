@@ -2320,11 +2320,11 @@ Company name = Programiz
 
 ---
 
-### 2. Java Parameterized Constructor
+#### 2. Java Parameterized Constructor
 
 A Java constructor can also accept one or more parameters. Such constructors are known as parameterized constructors (constructor with parameters).
 
-#### **Example 4: Parameterized constructor**
+##### **Example 4: Parameterized constructor**
 
 ```java
 class Main {
@@ -2365,11 +2365,11 @@ Here, we are passing the single value to the constructor. Based on the argument 
 
 ---
 
-### 3. Java Default Constructor
+#### 3. Java Default Constructor
 
 If we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program. This constructor is called default constructor.
 
-#### **Example 5: Default Constructor**
+##### **Example 5: Default Constructor**
 
 ```java
 class Main {
@@ -2511,9 +2511,7 @@ It is also possible to call one constructor from another constructor. To learn m
 
 ## Modifiers
 
-### Java Access Modifiers
-
-#### What are Access Modifiers?
+### What are Access Modifiers?
 
 In Java, access modifiers are used to set the accessibility (visibility) of classes, interfaces, variables, methods, constructors, data members, and the setter methods. For example,
 
@@ -2738,7 +2736,7 @@ public void square(int a) {
 
 ---
 
-## Method Parameters in Java
+### Method Parameters in Java
 
 A method parameter is a value accepted by the method. As mentioned earlier, a method can also have any number of parameters. For example,
 
@@ -2821,7 +2819,7 @@ For example,
 
 Here's a working example:
 
-### **Example 4: Java Standard Library Method**
+#### **Example 4: Java Standard Library Method**
 
 ```java
 public class Main {
