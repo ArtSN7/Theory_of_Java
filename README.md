@@ -946,8 +946,6 @@ class Main {
 
 ### Nested For Loops
 
-#### Nested Loop in Java
-
 If a loop exists inside the body of another loop, it's called a nested loop. Here's an example of the nested `for` loop.
 
 ```java
