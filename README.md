@@ -1220,7 +1220,7 @@ Here, we are using the `length` property of the array to get the size of the a
 
 We can also use the for-each loop to iterate through the elements of an array. For example,
 
-#### **Example: Using the for-each Loop**
+### **Example: Using the for-each Loop**
 
 ```java
 class Main {
@@ -1248,7 +1248,7 @@ Using for-each Loop:
 5
 ```
 
-## Java Multidimensional Arrays
+### Java Multidimensional Arrays
 
 A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example,
 
