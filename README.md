@@ -3,6 +3,41 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png" width="128"/>
 
 
+## Chapters
+
+**[•Data Types](https://github.com/ArtSN7/Theory_of_Java#data-types)**
+
+**[•Comments](https://github.com/ArtSN7/Theory_of_Java#comments)**
+
+**[•Input/Output](https://github.com/ArtSN7/Theory_of_Java#input--output)**
+
+**[•Operators](https://github.com/ArtSN7/Theory_of_Java#operators)**
+
+**[•If/Else](https://github.com/ArtSN7/Theory_of_Java#if--else)**
+
+**[•Switch Statement](https://github.com/ArtSN7/Theory_of_Java#switch-statement)**
+
+**[•While Loop](https://github.com/ArtSN7/Theory_of_Java#while-loop)**
+
+**[•For Loop](https://github.com/ArtSN7/Theory_of_Java#for-loop)**
+
+**[•Break/Continue](https://github.com/ArtSN7/Theory_of_Java#break-and-continue)**
+
+**[•Arrays](https://github.com/ArtSN7/Theory_of_Java#arrays)**
+
+**[•ArrayList](https://github.com/ArtSN7/Theory_of_Java#arraylist)**
+
+**[•Class and Object](https://github.com/ArtSN7/Theory_of_Java#class-and-object)**
+
+**[•This Keyword](https://github.com/ArtSN7/Theory_of_Java#this-keyword)**
+
+**[•Constructor](https://github.com/ArtSN7/Theory_of_Java#constructor)**
+
+**[•Modifiers](https://github.com/ArtSN7/Theory_of_Java#modifiers)**
+
+**[•Methods](https://github.com/ArtSN7/Theory_of_Java#methods)**
+
+
 ## Data Types
 
 
